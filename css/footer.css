@@ -39,6 +39,7 @@
 .icons {
     font-size: 50px;
     color: white;
+    margin-right: -80px;
 }
 .icons li{
     box-sizing: border-box;
