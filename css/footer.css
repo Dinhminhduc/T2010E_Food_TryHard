@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.child1{
+    float: left;
+    background-color: #222222;
+}
+.adr{
+    padding-top: 100px;
+}
+.adr h3{
+    background-color: red;
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+    padding: 5px 15px;
+}
+.adr h2{
+    color: white;
+    font-weight: 700;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin-top: -10px;
+    margin-right: -80px;
+}
+.icon{
+    color: red;
+    font-size: 60px;
+    float: left;
+    margin-right: 20px;
+}
+.icon .location i {
+    margin-right: 8px;
+}
+.icons {
+    font-size: 50px;
+    color: white;
+}
+.icons li{
+    box-sizing: border-box;
+    padding: 10px 15px 100px 0;
+}
+h4 {
+    font-size: 15px;
+    color: silver;
+}
+.location {
+    padding-left: 5px;
+}
+.desc {
+    color: silver;
+    margin-right: -80px;
+}
+.desc2 {
+    color: silver;
+    margin-right: -80px;
+}
+
+.child2 h2{
+    float: left;
+    border: 1px solid #f8f8f8 ;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: white;
+}
+.child2 {
+    background-image: url("../img/foody-map-66359_21-0086030000000_105-8013060000000.jpg");
+    height: 570px;
+}
+
+.downmenu{
+    background-color: red;
+    color: white;
+}
+.down{
+    font-size: 30px;
+    font-weight: 700;
+    padding:30px 0px;
+}
+.load{
+    padding:20px 0px;
+}
+.load .load1 h1{
+    height: 60px;
+    width: 200px;
+    border: 1px solid white;
+    padding: 20px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.child3-1{
+    font-size: 15px;
+}
+.links{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+.links li {
+    padding-left: 15px;
+    font-size: 15px;
+}
+.links li a {
+    color: #222222;
+}
