@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+}
 .child1{
     float: left;
     background-color: #222222;
@@ -33,12 +35,17 @@
     float: left;
     margin-right: 20px;
 }
+.icon:hover{
+    color: white;
+}
 .icon .location i {
     margin-right: 8px;
 }
 .icons a{
-    font-size: 50px;
+    font-size: 45px;
     color: white;
+}
+.icons .instagram {
 }
 .twitter:hover{
     color: red;
@@ -78,8 +85,7 @@ h4 {
 }
 .child2 {
     background-image: url("../img/foody-map-66359_21-0086030000000_105-8013060000000.jpg");
-    height: 570px;
-    background-image: ;
+    height: 565px;
 }
 
 .downmenu{
@@ -111,11 +117,14 @@ h4 {
     background-color: white;
     text-decoration: none;
 }
+.load .load1 a{
+    text-decoration: none;
+}
 .child3-1{
     font-size: 15px;
 }
 .links{
-    padding-left: 200px;
+    padding-left: 120px;
     padding-top: 20px;
 }
 .links li {
