@@ -35,6 +35,9 @@
     float: left;
     margin-right: 20px;
 }
+.icon:hover{
+    color: white;
+}
 .icon .location i {
     margin-right: 8px;
 }
