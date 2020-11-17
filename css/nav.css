@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    color: #222222;
+    background-color: #f2f2f2;
+    margin-left: calc(50% - 600px);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+img{
+   width:508px;
+    height: 585px;
+}
+.container{
+    background-color: white;
+    width: 1250px;
+    margin-right: 50px;
+    text-align: center;
+
+}
+.nav{
+    width: 1200px;
+    margin:0 auto;
+}
+.title1{
+    background-color: red;
+    font-weight: 800;
+    text-align: center;
+    color:#ffffff;
+    margin-top: 50px;
+    width:200px;
+}
+.title2{
+    text-align: center;
+    font-weight: 800;
+
+}
+.text{
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.food{
+    float:left;
+    padding-left:30px;
+    padding-right:30px ;
+}
+.item-group{
+    padding: 50px;
+    margin-bottom: 30px;
+
+
+}
+.item .name{
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+
+}
+.name:hover{
+    color:#ffffff;
+}
+.btFood{
+    background-color: red;
+    color: white;
+    margin-top:20px;
+    height: 50px;
+    width: 200px;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+.btFood:hover{
+    background-color: white;
+    color:red;
+    border: 1px solid red;
+}
+.img:hover{
+
+}
