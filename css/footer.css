@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+}
 .child1{
     float: left;
     background-color: #222222;
@@ -32,6 +34,9 @@
     font-size: 60px;
     float: left;
     margin-right: 20px;
+}
+.icon:hover{
+    color: white;
 }
 .icon .location i {
     margin-right: 8px;
@@ -110,12 +115,16 @@ h4 {
 .load1 h1:hover{
     color: black;
     background-color: white;
+    text-decoration: none;
+}
+.load .load1 a{
+    text-decoration: none;
 }
 .child3-1{
     font-size: 15px;
 }
 .links{
-    padding-left: 200px;
+    padding-left: 120px;
     padding-top: 20px;
 }
 .links li {
