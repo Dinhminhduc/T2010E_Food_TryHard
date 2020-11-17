@@ -36,12 +36,10 @@
 .icon .location i {
     margin-right: 8px;
 }
-.icons {
+.icons a{
     font-size: 50px;
     color: white;
-    margin-right: -80px;
 }
-
 .twitter:hover{
     color: red;
 }
@@ -81,6 +79,7 @@ h4 {
 .child2 {
     background-image: url("../img/foody-map-66359_21-0086030000000_105-8013060000000.jpg");
     height: 570px;
+    background-image: ;
 }
 
 .downmenu{
@@ -104,10 +103,13 @@ h4 {
     text-transform: uppercase;
     font-weight: 700;
     box-sizing: border-box;
+    color: white;
+    text-decoration: none;
 }
 .load1 h1:hover{
     color: black;
     background-color: white;
+    text-decoration: none;
 }
 .child3-1{
     font-size: 15px;
