@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container {
-}
 .child1{
     float: left;
     background-color: #222222;
@@ -122,9 +120,9 @@ h4 {
 }
 .child3-1{
     font-size: 15px;
+    color: black;
 }
 .links{
-    padding-left: 120px;
     padding-top: 20px;
 }
 .links li {
