@@ -1,0 +1,58 @@
+.section{
+    float: left;
+    width: 100%;
+}
+
+.Gioithieu{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Gioithieu a{
+    color: #ffffff;
+    background-color: red;
+    font-weight: 800;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.Gioithieu h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.Gioithieu p{
+    font-weight: 400;
+    color: grey;
+}
+
+.Gioithieu hr{
+    width: 50px;
+    margin-left: calc(50% - 25px);
+    border: 1px solid red;
+
+}
+
+.product-boxda{
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.product-boxda h1{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.product-boxda p{
+    color: grey;
+    font-weight: 400;
+}
+
+
+
+
+
+

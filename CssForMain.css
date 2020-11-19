@@ -1,0 +1,80 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.mainduc{
+    background-image: url("img/background-classic-home-interior.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    margin: 50px 130px;
+    padding: 30px 60px;
+    float: left;
+    background-color:white;
+    width: 950px;
+    height: 720px;
+}
+.fastfood{
+    float: left;
+    height: 30px;
+    width: 110px;
+    background-color: red;
+    font-weight: 600;
+    font-size: 10px;
+    color: white;
+    padding: 5px 10px ;
+
+}
+.fastfood p{
+    font-size:15px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+#content1{
+    float: left;
+    width: 390px;
+    height: 600px;
+    background-color: white;
+    padding-top: 120px;
+}
+.madebusiness{
+    float: left;
+    width: 350px;
+    height: 120px;
+}
+.madebusiness p{
+    line-height: 55px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: left;
+}
+.since{
+    float: left;
+    width: 300px;
+    height: 140px;
+}
+.since p{
+    width: 100%;
+    text-align: justify;
+    font-size: 14px;
+}
+.viewduc :hover{
+    float: left;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    padding: 15px 20px;
+}
+.viewduc a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fafafa;
+}
+.content2{
+    float: left;
+    width: 440px;
+    height: 600px;
+    background-color: #fafafa;
+}
