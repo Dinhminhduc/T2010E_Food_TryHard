@@ -16,10 +16,12 @@
     background-color: red;
     font-weight: 800;
     padding: 5px 10px;
+    font-size: 20px;
 }
 
 .Gioithieu h1{
     font-weight: 900;
+    font-size: 40px;
 }
 
 .Gioithieu p{
@@ -40,8 +42,8 @@
 }
 
 .product-boxda h1{
-    font-weight: 900;
-    font-size: 15px;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .product-boxda p{
