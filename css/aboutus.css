@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container  {
+    background-color: #f8f8f8;
+}
+.Title {
+    padding-left: 100px;
+}
+.Title .learn {
+    color: white;
+    background-color: red;
+    width: 150px;
+}
+.Title .learn h1{
+    font-size: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: 700;
+}
+.Title h2{
+    font-weight: 800;
+    font-size: 35px;
+}
+.Title h3 {
+    font-weight: 100;
+    font-size: 20px;
+    color: silver;
+}
+.form-groupl{
+    width: 230px;
+    height: 390px;
+    box-shadow: 0 0 #c0c0c0 ;
+    float: left;
+    background-color: white;
+    margin: 30px 20px 30px 0;
+}
+.form-groupparent{
+    width: 1000px;
+    margin: 0 auto;
+}
+.form-groupl img{
+    max-width: 100%;
+    height: auto;
+}
+.icon-link {
+    font-size: 25px;
+}
