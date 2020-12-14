@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Foods</title>
+    <script src="libs/jquery/jquery-3.5.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="libs/fontawesome 5.15.1/css/all.css">
+    <link rel="stylesheet" href="libs/boostrap 3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="HeaderJS 13-12-2020.css">
+</head>
+<body>
+<header class="section header" id="header">
+</header>
+<script type="text/javascript" src="header.js">
+</script>
+<div class="header-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="bold">
+                    <p>BOLD THEMES</p>
+                </div>
+                <div class="theme">
+                    <h1>FAST FOOD<br/>WORD PRESS<br/>THEME</h1>
+                </div>
+                <div class="view">
+                    <a href="#">VIEW SAMPLE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    window.onscroll = function (){
+        var v = $(window).scrollTop();
+        if(v>150){
+            var h = $(".header-nav");
+            h.addClass("active");
+            var k = $(".menu-list");
+            k.addClass("active");
+            var m = $(".icon-links");
+            m.addClass("active");
+        }else{
+            var h = $(".header-nav");
+            h.removeClass("active");
+            var k = $(".menu-list");
+            k.removeClass("active");
+            var m = $(".icon-links");
+            m.removeClass("active");
+        }
+    }
+</script>
+</body>
+</html>
