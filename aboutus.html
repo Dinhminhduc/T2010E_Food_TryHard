@@ -84,33 +84,48 @@
     </div>
     <div class="img1">
         <div class="box-img">
-            <img src="img/yoko_restaurant_teaser.jpg" height="960" width="1440"/>
+            <div class="black">
+
+            </div>
+            <img class="a" src="img/yoko_restaurant_teaser.jpg"  height="960" width="1440"/>
         </div>
         <div class="box-img2">
-            <img src="img/hamburger.jpg" height="960" width="1440"/>
+            <img class="a" src="img/hamburger.jpg" height="960" width="1440"/>
         </div>
         <div class="box-img">
-            <img src="img/chestnut-restaurant.jpg" height="960" width="1440"/>
+            <img class="a" src="img/chestnut-restaurant.jpg" height="960" width="1440"/>
         </div>
         <div class="box-img2">
-            <img src="img/inner-slider-1-640x640.jpg" height="960" width="1440"/>
+            <img class="a" src="img/inner-slider-1-640x640.jpg" height="960" width="1440"/>
         </div>
         <div class="box-img2">
-            <img src="img/inner-slider-2-640x640.jpg" height="960" width="1440"/>
+            <img class="a" src="img/inner-slider-2-640x640.jpg" height="960" width="1440"/>
         </div>
         <div class="box-img2">
-            <img src="img/inner-slider-3-640x640.jpg" height="960" width="1440"/>
+            <img class="a" src="img/inner-slider-3-640x640.jpg" height="960" width="1440"/>
         </div>
         <div class="box-img">
-            <img src="img/we-create-menu-that-highlights.jpg" height="960" width="1440"/>
+            <img class="a" src="img/we-create-menu-that-highlights.jpg" height="960" width="1440"/>
         </div>
         <div class="box-img2">
-            <img src="img/images.jpg" height="960" width="1440"/>
+            <img class="a" src="img/images.jpg" height="960" width="1440"/>
         </div>
         <div class="box-img2">
-            <img src="img/close-up-photo-of-burger-3915906-scaled.jpg" height="960" width="1440"/>
+            <img class="a" src="img/close-up-photo-of-burger-3915906-scaled.jpg" height="960" width="1440"/>
         </div>
     </div>
+<script type='text/javascript'>
+    $(document).ready(function(){
+        $("img.a").hover(
+            function() {
+                $(this).stop().animate({"opacity": "0.5"}, "slow");
+            },
+            function() {
+                $(this).stop().animate({"opacity": "1"}, "slow");
+            });
+
+    });
+</script>
     <div class="col-md-12 row">
         <div class="form-groupparent">
             <div class="col-md-4">

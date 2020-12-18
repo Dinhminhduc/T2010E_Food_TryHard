@@ -156,3 +156,15 @@ body{
     padding: 5px 8px;
     font-weight: 800;
 }
+
+.img1{
+    position: relative;
+}
+.img1 .box-img .black{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
