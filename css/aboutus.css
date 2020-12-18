@@ -135,7 +135,10 @@ body{
 /*}*/
 /* Slideshow container */
 #slider{
-    height: 450px;
+    height: 550px;
+}
+#slider img{
+    max-height: 100%;
 }
 .slide{
     padding-top: 90px;
