@@ -1,6 +1,5 @@
 
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaj0mHlR-keu-9hsR6d-gB0L9BclG04rk&callback=initMap&libraries=&v=weekly"
-defer
+
 
 navigator.geolocation.getCurrentPosition(initMap)
 let map;

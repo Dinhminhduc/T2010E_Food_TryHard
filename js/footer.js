@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 function footer(){
     return "    <div class=\"parent row\">\n" +
         "        <div class=\"child1 col-md-6\">\n" +
@@ -30,7 +38,9 @@ function footer(){
         "                    <a href=\"#\"><li class=\"instagram\"><i class=\"fab fa-instagram-square\"></i></li></a>\n" +
         "                </div>\n" +
         "            </div>\n" +
+
         "        </div>\n" +
+        "<div id=\"map\"></div>"
         "        <div class=\"downmenu col-md-12\">\n" +
         "            <div class=\"parent row\">\n" +
         "                <div class=\"ourmenu col-md-6\">\n" +
@@ -65,6 +75,7 @@ function footer(){
         "            </div>\n" +
         "        </div>\n" +
         "    </div>"
+
 }
 document.getElementById("footer-1").innerHTML = footer();
 
