@@ -31,15 +31,6 @@ function footer(){
         "                </div>\n" +
         "            </div>\n" +
         "        </div>\n" +
-        "        <div class=\"child2 col-md-6\">\n" +
-        "            <div class=\"boxmap\">\n" +
-        "                <h2>Map</h2>\n" +
-        "            </div>\n" +
-        "            <div class=\"boxsatelite\">\n" +
-        "                <h2>Satelite</h2>\n" +
-        "\n" +
-        "            </div>\n" +
-        "        </div>\n" +
         "        <div class=\"downmenu col-md-12\">\n" +
         "            <div class=\"parent row\">\n" +
         "                <div class=\"ourmenu col-md-6\">\n" +
@@ -76,3 +67,5 @@ function footer(){
         "    </div>"
 }
 document.getElementById("footer-1").innerHTML = footer();
+
+
