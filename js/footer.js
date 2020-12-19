@@ -38,9 +38,8 @@ function footer(){
         "                    <a href=\"#\"><li class=\"instagram\"><i class=\"fab fa-instagram-square\"></i></li></a>\n" +
         "                </div>\n" +
         "            </div>\n" +
-
         "        </div>\n" +
-        "<div id=\"map\"></div>"
+        "<div id=\"map\"></div>\n" +
         "        <div class=\"downmenu col-md-12\">\n" +
         "            <div class=\"parent row\">\n" +
         "                <div class=\"ourmenu col-md-6\">\n" +
@@ -55,6 +54,7 @@ function footer(){
         "                </div>\n" +
         "            </div>\n" +
         "        </div>\n" +
+
         "        <div class=\"Copyright col-md-12\">\n" +
         "            <div class=\"parent row\">\n" +
         "                <div class=\"child3 col-md-6\">\n" +
