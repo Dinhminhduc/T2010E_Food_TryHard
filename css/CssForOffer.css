@@ -1,0 +1,330 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.img{
+    max-width: 100%;
+}
+.main-offer{
+    background-color: lightgray;
+    padding: 40px;
+}
+.box-1{
+    background-color:#fafafa ;
+    padding: 50px 20px;
+    line-height: 5px;
+    margin-top: 50px;
+}
+.box-1 span{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0px 10px;
+}
+.box-1 h1{
+    color: black;
+    font-weight: 800;
+    font-size: 60px;
+}
+.box-1 h2{
+    font-weight: 100;
+    font-size: 16px;
+}
+.box-1 .title{
+    margin-bottom: 50px;
+}
+.box-1 img{
+    border-radius: 50%;
+}
+.item{
+    float: left;
+    width: 100%;
+    height: 120px;
+    line-height: 5px;
+    padding: 10px;
+    border-bottom: 1px dotted gray;
+}
+.item img{
+    float: left;
+}
+.item .item-content{
+    float: left;
+    padding: 10px;
+    width: 345px;
+    height: 100px;
+}
+.item .item-content p{
+    font-weight: 800;
+    font-size: 16px;
+}
+.item .item-content p2{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 20px;
+}
+.item .price{
+    float: right;
+    width: 50px;
+    height: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 25px;
+}
+.book-table span{
+    float: left;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 30px;
+    margin-top: 50px;
+    margin-left: 440px;
+    border: 1px solid red;
+}
+.book-table span:hover{
+    background-color: white;
+    color: red;
+}
+.main-offer-2{
+    background-image: url("../img/background-menu-sweets.jpg");
+    padding: 40px;
+    background-size: cover;
+}
+.box-2{
+    padding: 50px 20px;
+    line-height: 5px;
+    margin-top: 50px;
+    color: white;
+}
+.box-2 span{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0px 10px;
+}
+.box-2 h1{
+    color: white;
+    font-weight: 800;
+    font-size: 60px;
+}
+.box-2 h2{
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+}
+.box-2 .title{
+    margin-bottom: 50px;
+}
+.content-sweet1.item{
+    float: left;
+    width: 100%;
+    height: 120px;
+    line-height: 5px;
+    padding: 10px;
+    border-bottom: 1px dotted gray;
+}
+.box-2.item img{
+    float: left;
+}
+.box-2.item .item-content{
+    float: left;
+    padding: 10px;
+    width: 345px;
+    height: 100px;
+}
+.box-2.item .item-content p{
+    font-weight: 800;
+    font-size: 16px;
+}
+.box-2.item.item-content p2{
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 20px;
+}
+.box-2.item .price{
+    float: right;
+    width: 50px;
+    height: 100%;
+    font-weight: 800;
+    font-size: 18px;
+    padding-top: 25px;
+}
+.box-2 img{
+    border-radius: 50%;
+}
+.box-3 .title{
+    margin-bottom: 50px;
+}
+.box-3{
+    padding: 50px 20px;
+    line-height: 5px;
+    margin-top: 50px;
+    color: black;
+    height: 730px;
+}
+.box-3 span{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0px 10px;
+}
+.box-3 h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+.box-3 h2{
+    font-weight: 100;
+    font-size: 16px;
+}
+.tab-list a{
+    float:left;
+    border-bottom: 3px solid gray;
+}
+.tab-content{
+    position: relative;
+}
+.box-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 200px;
+    margin-top: -1px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+.box-content.active{
+    opacity: 1;
+}
+.navbar-link.active{
+    border-bottom: 3px solid red;
+}
+.content-drinks1.item{
+    float: left;
+    width: 100%;
+    height: 120px;
+    line-height: 5px;
+    padding: 10px;
+    border-bottom: 1px dotted gray;
+}
+.content-drinks1.item{
+    float: left;
+    width: 100%;
+    height: 120px;
+    line-height: 5px;
+    padding: 10px;
+    border-bottom: 1px dotted gray;
+}
+.content-shakes1.item{
+    float: left;
+    width: 100%;
+    height: 120px;
+    line-height: 5px;
+    padding: 10px;
+    border-bottom: 1px dotted gray;
+}
+.box-content.item .item-content{
+    float: left;
+    padding: 10px;
+    width: 345px;
+    height: 100px;
+}
+.box-content.item .item-content p{
+    font-weight: 800;
+    font-size: 16px;
+}
+.box-content.item.item-content p2{
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 20px;
+}
+.box-content.item .price{
+    float: right;
+    width: 50px;
+    height: 100%;
+    font-weight: 800;
+    font-size: 18px;
+    padding-top: 25px;
+}
+.main-offer-3 ul {
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 340px;
+    margin-bottom: 50px;
+}
+.main-offer-4{
+    background-color: lightgray;
+    padding: 40px;
+}
+.box-4{
+    background-color:white ;
+    padding: 50px 20px;
+    line-height: 5px;
+    margin-top: 50px;
+    height: 700px;
+}
+.box-4 span{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0px 10px;
+}
+.box-4 h1{
+    color: black;
+    font-weight: 800;
+    font-size: 60px;
+}
+.box-4 h2{
+    font-weight: 100;
+    font-size: 16px;
+}
+.box-4 .title{
+    margin-bottom: 50px;
+}
+.box-4.item{
+    float: left;
+    width: 100%;
+    height: 120px;
+    line-height: 5px;
+    padding: 10px;
+    border-bottom: 1px dotted gray;
+}
+.box-4 .item-content{
+
+}
+.box-4 .item-content p{
+    text-align: center;
+    font-weight: 800;
+    font-size: 16px;
+}
+.box-4 .item-content p2{
+    text-align: center;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 20px;
+}
+.book-table{
+    margin-top: 30px;
+}
+.book-table a{
+    margin-left: 120px;
+    color: black;
+    border-bottom: 2px solid gray;
+    text-decoration: none;
+}
+.book-table a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.award{
+    height: 800px;
+}

@@ -1,3 +1,8 @@
+#map{
+    width: 50%;
+    height: 565px;
+    float: right;
+}
 *{
     margin: 0;
     padding: 0;
@@ -82,8 +87,6 @@ h4 {
     background-color: white;
 }
 .child2 {
-    background-image: url("../img/foody-map-66359_21-0086030000000_105-8013060000000.jpg");
-    height: 565px;
 }
 
 .downmenu{

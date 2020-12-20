@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>About Us</title>
+
+    <script src="libs/jquery/jquery-3.5.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="libs/jquery-3.5.1.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="libs/fontawesome 5.15.1/css/all.css">
@@ -10,17 +14,29 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/aboutus.css">
+    <link rel="stylesheet" href="libs/nivo/themes/default/default.css">
+    <link rel="stylesheet" href="libs/nivo/nivo-slider.css">
+    <script src="libs/nivo/jquery.nivo.slider.js"></script>
+
+    <link rel="stylesheet" href="libs/owl_slider/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="libs/owl_slider/assets/owl.carousel.css">
+    <script src="libs/owl_slider/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="HeaderJS 13-12-2020.css">
+
 </head>
 <body>
+<header class="section header" id="header">
+</header>
+<script type="text/javascript" src="header.js">
+</script>
     <section class="section main col-md-12">
-        <div class="container">
             <div class="content">
-                <div class="Title">
-                    <div class="learn"><h1> Learn More</h1> </div>
-                    <h2> Our Great Crew</h2>
-                    <h3>Capitalise on low hanging fruit to identify a ballpark value<br> added activity to beta test</h3>
-                </div>
                 <div class="form-groupparent">
+                    <div class="Title">
+                        <div class="learn"><h1> Learn More</h1> </div>
+                        <h2> Our Great Crew</h2>
+                        <h3>Capitalise on low hanging fruit to identify a ballpark value<br> added activity to beta test</h3>
+                    </div>
                     <div class="form-groupl">
                         <img src="img/Capture1.PNG" height="296" width="253"/>
                         <span><h3>Stella Jones</h3></span>
@@ -55,11 +71,169 @@
                     </div>
                 </div>
             </div>
+    </section>
+    <div class="chef col-md-12 ">
+        <div class="text-desc col-md-6 ">
+            <h1>Meet the Chef</h1>
+            <h2>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.</h2>
+            <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo.</p>
+        </div>
+        <div class="img col-md-6">
+            <img src="img/Diploma-in-Culinary-Artistry.jpg" height="667" width="1000"/>
+        </div>
+    </div>
+    <div class="img1">
+        <div class="box-img">
+            <div class="black">
+
+            </div>
+            <img class="a" src="img/yoko_restaurant_teaser.jpg"  height="960" width="1440"/>
+        </div>
+        <div class="box-img2">
+            <img class="a" src="img/hamburger.jpg" height="960" width="1440"/>
+        </div>
+        <div class="box-img">
+            <img class="a" src="img/chestnut-restaurant.jpg" height="960" width="1440"/>
+        </div>
+        <div class="box-img2">
+            <img class="a" src="img/inner-slider-1-640x640.jpg" height="960" width="1440"/>
+        </div>
+        <div class="box-img2">
+            <img class="a" src="img/inner-slider-2-640x640.jpg" height="960" width="1440"/>
+        </div>
+        <div class="box-img2">
+            <img class="a" src="img/inner-slider-3-640x640.jpg" height="960" width="1440"/>
+        </div>
+        <div class="box-img">
+            <img class="a" src="img/we-create-menu-that-highlights.jpg" height="960" width="1440"/>
+        </div>
+        <div class="box-img2">
+            <img class="a" src="img/images.jpg" height="960" width="1440"/>
+        </div>
+        <div class="box-img2">
+            <img class="a" src="img/close-up-photo-of-burger-3915906-scaled.jpg" height="960" width="1440"/>
+        </div>
+    </div>
+<script type='text/javascript'>
+    $(document).ready(function(){
+        $("img.a").hover(
+            function() {
+                $(this).stop().animate({"opacity": "0.5"}, "slow");
+            },
+            function() {
+                $(this).stop().animate({"opacity": "1"}, "slow");
+            });
+
+    });
+</script>
+    <div class="col-md-12 row">
+        <div class="form-groupparent">
+            <div class="col-md-4">
+                <div class="beef">
+                    <img src="img/inner-slider-3-640x640.jpg" height="960" width="1440"/>
+                    <h2 class="text-center">BEEF BURGER</h2>
+                    <p class="text-center">Beetroot water spinach okra water chestnut ricebean pea.</p>
+                    <h3 class="text-center"><a href="#">View Menu</a> </h3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="beef">
+                    <img src="img/inner-slider-2-640x640.jpg" height="960" width="1440"/>
+                    <h2 class="text-center">BEEF BURGER</h2>
+                    <p class="text-center">Beetroot water spinach okra water chestnut ricebean pea.</p>
+                    <h3 class="text-center"><a href="#">View Menu</a> </h3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="beef">
+                    <img src="img/inner-slider-1-640x640.jpg" height="960" width="1440"/>
+                    <h2 class="text-center">BEEF BURGER</h2>
+                    <p class="text-center">Beetroot water spinach okra water chestnut ricebean pea.</p>
+                    <h3 class="text-center"><a href="#">View Menu</a> </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="slide col-md-12">
+        <div class="theme-default">
+            <div class="container">
+                <div id="slider" class="nivoSlider">
+                    <img src="img/inner-slider-3-640x640.jpg" data-thumb="images/toystory.jpg" alt="" />
+                    <img src="img/inner-slider-2-640x640.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" />
+                    <img src="img/inner-slider-1-640x640.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                </div>
+            </div>
         </div>
     </section>
+    <script type="text/javascript">
+        $('#slider').nivoSlider();
+    </script>
+
+    <section class="award col-md-12">
+        <div class="container">
+            <div class="text-center">
+                <h3>Learn More</h3>
+                <h1>OUR AWARD</h1>
+                <p>Capitalise on low hanging fruit to identify a ballpark value added activity to beta test.</p>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item"><h4><img src="img/client-logo-1-black.png"/></h4></div>
+                <div class="item"><h4><img src="img/client-logo-3-black-320x320.png"/></h4></div>
+                <div class="item"><h4><img src="img/client-logo-4-black-320x320.png"/></h4></div>
+                <div class="item"><h4><img src="img/client-logo-5-black-320x320.png"/></h4></div>
+                <div class="item"><h4><img src="img/client-logo-6-black-320x320.png"/></h4></div>
+                <div class="item"><h4><img src="img/client-logo-8-black-320x320.png"/></h4></div>
+                <div class="item"><h4><img src="img/client-logo-9-black-320x320.png"/></h4></div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+    </script>
+<!--    <div class="row">-->
+<!--        <div class="col-md-12">-->
+<!--&lt;!&ndash;                <div class="bite">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="description">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="row">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="text-description col-md-6">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <h3>BEST SELLER</h3>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <h1></h1>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="image1 col-md-6">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <img src="img/inner-slider-3-640x640.jpg" height="450" width="auto"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
     <footer id="footer-1" class="section footer col-md-12">
     </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaj0mHlR-keu-9hsR6d-gB0L9BclG04rk&callback=initMap&libraries=&v=weekly"
+            defer></script>
     <script type="text/javascript" src="js/footer.js">
     </script>
+
+    <script
+            type="text/javascript" src="js/map.js">
+    </script>
+
 </body>
 </html>

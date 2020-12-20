@@ -3,11 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container  {
-    background-color: #f8f8f8;
+body{
+    background-color: #f7f8fa;
 }
-.Title {
-    padding-left: 100px;
+.container  {
 }
 .Title .learn {
     color: white;
@@ -47,4 +46,116 @@
 }
 .icon-link {
     font-size: 25px;
+}
+.chef {
+    width: 95%;
+    height: 500px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #bebebe;
+    margin-bottom: 50px;
+}
+.text-desc h1{
+    padding-top: 50px;
+}
+.text-desc p {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.text-desc{
+    padding-left: 100px;
+}
+.img img{
+    max-width: 100%;
+    height: 500px;
+}
+.img1 {
+    margin-bottom: 100px;
+    margin: 0 auto;
+}
+.box-img img{
+    margin-bottom: 30px;
+    height: 260px;
+    width:520px;
+    padding-left: 15px;
+    float: left;
+}
+
+.box-img2 img {
+    margin-bottom: 30px;
+    height: 260px;
+    width:260px;
+    padding-left: 15px;
+    float: left;
+}
+.burger-type{
+}
+
+.beef{
+    height: 500px ;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    margin-bottom: 100px;
+}
+.beef img{
+    max-height: 60%;
+    max-width: 100%;
+}
+.beef h3 a {
+    text-decoration: none;
+    color: #41414c;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.beef h3 a:hover{
+    color: red;
+    border-color: red;
+}
+/*.bite{*/
+/*    height: 600px;*/
+/*    background-image: url("../img/th (1).jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover ;*/
+/*    position: relative;*/
+/*}*/
+/*.description{*/
+/*    height: 450px;*/
+/*    width: 800px;*/
+/*    background-color: white;*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%,-50%);*/
+/*}*/
+/* Slideshow container */
+#slider{
+    height: 550px;
+}
+#slider img{
+    max-height: 100%;
+}
+.slide{
+    padding-top: 90px;
+    background-image: url("../img/yoko_restaurant_teaser.jpg");
+    background-size: cover;
+}
+
+.award h3 {
+    background-color: red;
+    color: white;
+    width: 120px;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-top: 100px;
+    padding: 5px 8px;
+    font-weight: 800;
+}
+
+.img1{
+    position: relative;
 }
