@@ -152,15 +152,15 @@ li{
     border: 2px solid #ff0000;
     text-decoration: none;
 }
-.main.bolCell{
+.main.boldCell{
     padding-top:15px;
 
 }
-.item{
+.main.item-group{
     float: left;
     width: 100%;
     background-color: #ffffff;
     margin-bottom: 30px;
     text-align: center;
-
+    color:red;
 }
