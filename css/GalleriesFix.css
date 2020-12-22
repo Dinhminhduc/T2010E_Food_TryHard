@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.galleries{
+    float: left;
+    background-color: #fafafa;
+    padding: 30px 50px;
+}
+.galleries .title span{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 10px;
+}
+.galleries.title.nav{
+    float: left;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 10px;
+    border-bottom: #fafafa;
+}

@@ -10,7 +10,7 @@ function header() {
         "                    <li><a href=\"ClassWork2.html\">Home</a></li>\n" +
         "                    <li><a href=\"aboutus.html\">Page</a></li>\n" +
         "                    <li><a href=\"OUR-OFFER.html\">Our Offer</a></li>\n" +
-        "                    <li><a href=\"#\">Gallaries</a></li>\n" +
+        "                    <li><a href=\"GALLERIES.html\">Gallaries</a></li>\n" +
         "                    <li><a href=\"#\">Blog</a></li>\n" +
         "                    <li><a href=\"#\">Shop</a></li>\n" +
         "                </ul>\n" +
